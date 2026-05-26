@@ -1,0 +1,88 @@
+/* @id kanagawa */
+/* @name Kanagawa */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Kanagawa 配色 - 日式浮世绘暗色 */
+
+.container {
+  --bg: #1f1f28;
+  --fg: #dcd7ba;
+  --muted: #727169;
+  --code-bg: #16161d;
+  --code-border: #363646;
+  --code-fg: #dcd7ba;
+  --c-key: #957fb8;
+  --c-str: #98bb6c;
+  --c-num: #d27e99;
+  --c-fn: #7e9cd8;
+  --c-com: #727169;
+  --accent: #c0a36e;
+  --accent-hover: #d4b885;
+  --accent-light: rgba(192, 163, 110, 0.15);
+  --table-border: #363646;
+  --table-header-bg: #2a2a37;
+  --table-header-fg: #dcd7ba;
+  --border: #363646;
+}
+
+.container .preview {
+  --preview-bg: #1f1f28;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1f1f28;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #7e9cd8;
+  border-bottom-color: rgba(126, 156, 216, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #7e9cd8;
+  border-bottom-color: rgba(126, 156, 216, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #7e9cd8;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #dca561;
+  background: rgba(220, 165, 97, 0.08);
+  color: #dcd7ba;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #c0a36e;
+  text-decoration-color: rgba(192, 163, 110, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #363646;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #2a2a37;
+  color: #dcd7ba;
+  border-color: #363646;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #2a2a37;
+  color: #dcd7ba;
+  border: 1px solid #363646;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #363646;
+}

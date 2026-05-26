@@ -1,0 +1,8 @@
+{
+  "id": "lyt-mode",
+  "name": "LYT Mode",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian LYT Mode（@nickmilo）移植 - Linking Your Thinking 笔记法专用",
+  "main": "style.css"
+}

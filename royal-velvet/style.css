@@ -1,0 +1,92 @@
+/* @id royal-velvet */
+/* @name Royal Velvet */
+/* @author flymd-theme-plugin */
+/* @description Obsidian Royal Velvet 移植 - 紫色丝绒奢华暗色 */
+/* @version 1.0.0 */
+
+.container {
+  --bg: #1a0d2e;
+  --fg: #e9d5ff;
+  --muted: #9d8fc7;
+  --code-bg: #10081f;
+  --code-border: #3d2c5e;
+  --code-fg: #e9d5ff;
+  --c-key: #f0abfc;
+  --c-str: #fde68a;
+  --c-num: #fbcfe8;
+  --c-fn: #c4b5fd;
+  --c-com: #7c6caa;
+  --accent: #c084fc;
+  --accent-hover: #a855f7;
+  --accent-light: rgba(192, 132, 252, 0.16);
+  --table-border: #3d2c5e;
+  --table-header-bg: #2a1747;
+  --table-header-fg: #d8b4fe;
+  --border: #3d2c5e;
+}
+
+.container .preview {
+  --preview-bg: #1a0d2e;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1a0d2e;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #d8b4fe;
+  border-bottom-color: rgba(216, 180, 254, 0.3);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #d8b4fe;
+  border-bottom-color: rgba(216, 180, 254, 0.22);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #d8b4fe;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #c084fc;
+  background: rgba(192, 132, 252, 0.08);
+  color: #e9d5ff;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #c084fc;
+  text-decoration-color: rgba(192, 132, 252, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #3d2c5e;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #2a1747;
+  color: #d8b4fe;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #10081f;
+  color: #f0abfc;
+  border: 1px solid #3d2c5e;
+}
+
+.container .preview pre code .comment,
+.container.wysiwyg-v2 .ProseMirror pre code .comment {
+  font-style: italic;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-top-color: #3d2c5e;
+}

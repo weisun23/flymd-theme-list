@@ -1,0 +1,8 @@
+{
+  "id": "cybertron-flow",
+  "name": "Cybertron Flow",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Cybertron Flow 移植 - 赛博霓虹暗色",
+  "main": "style.css"
+}

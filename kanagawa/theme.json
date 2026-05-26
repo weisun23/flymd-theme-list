@@ -1,0 +1,8 @@
+{
+  "id": "kanagawa",
+  "name": "Kanagawa",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Kanagawa 配色 - 日式浮世绘暗色",
+  "main": "style.css"
+}

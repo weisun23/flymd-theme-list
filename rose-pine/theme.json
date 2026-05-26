@@ -1,0 +1,8 @@
+{
+  "id": "rose-pine",
+  "name": "Rosé Pine",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Rosé Pine 配色 - 柔和粉紫调暗色",
+  "main": "style.css"
+}

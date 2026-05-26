@@ -1,0 +1,8 @@
+{
+  "id": "pixyll",
+  "name": "Pixyll",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Pixyll 主题 - 轻盈白衬线极简",
+  "main": "style.css"
+}

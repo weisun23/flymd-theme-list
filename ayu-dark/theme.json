@@ -1,0 +1,8 @@
+{
+  "id": "ayu-dark",
+  "name": "Ayu Dark",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Ayu Dark 配色 - 深色暖橙强调",
+  "main": "style.css"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ayu-light",
+  "name": "Ayu Light",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Ayu Light 配色 - 暖橙浅色",
+  "main": "style.css"
+}

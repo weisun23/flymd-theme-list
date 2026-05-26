@@ -1,0 +1,8 @@
+{
+  "id": "its-theme",
+  "name": "ITS Theme",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian ITS Theme（@SlRvb）移植 - 多色调可切换",
+  "main": "style.css"
+}

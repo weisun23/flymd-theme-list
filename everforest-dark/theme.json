@@ -1,0 +1,8 @@
+{
+  "id": "everforest-dark",
+  "name": "Everforest Dark",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Everforest Dark 配色 - 森林绿护眼暗色",
+  "main": "style.css"
+}

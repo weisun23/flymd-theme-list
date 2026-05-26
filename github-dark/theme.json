@@ -1,0 +1,8 @@
+{
+  "id": "github-dark",
+  "name": "GitHub Dark",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "GitHub 官方文档暗色风格",
+  "main": "style.css"
+}

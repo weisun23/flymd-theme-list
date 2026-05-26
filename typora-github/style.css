@@ -1,0 +1,102 @@
+/* @id typora-github */
+/* @name Typora GitHub */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description Typora 自带 GitHub 主题 - 经典文档风 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #24292e;
+  --muted: #6a737d;
+  --code-bg: #f6f8fa;
+  --code-border: #dfe2e5;
+  --code-fg: #24292e;
+  --c-key: #d73a49;
+  --c-str: #032f62;
+  --c-num: #005cc5;
+  --c-fn: #6f42c1;
+  --c-com: #6a737d;
+  --accent: #0366d6;
+  --accent-hover: #0246a3;
+  --accent-light: rgba(3, 102, 214, 0.1);
+  --table-border: #dfe2e5;
+  --table-header-bg: #f6f8fa;
+  --table-header-fg: #24292e;
+  --border: #dfe2e5;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+/* 标题：同正文色，h1/h2 加底部细线 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #24292e;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #24292e;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #24292e;
+}
+
+/* 引用块：无背景，灰边灰字 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #dfe2e5;
+  background: transparent;
+  color: #6a737d;
+}
+
+/* 链接 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #0366d6;
+  text-decoration-color: rgba(3, 102, 214, 0.3);
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #dfe2e5;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f6f8fa;
+  color: #24292e;
+}
+
+/* 行内代码：浅灰圆角 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: rgba(27, 31, 35, 0.05);
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+  color: #24292e;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #eaecef;
+}
+
+/* 注释斜体 */
+.container .preview .token.comment,
+.container.wysiwyg-v2 .ProseMirror .token.comment {
+  font-style: italic;
+}

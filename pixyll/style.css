@@ -1,0 +1,106 @@
+/* @id pixyll */
+/* @name Pixyll */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description Typora Pixyll 主题 - 轻盈白衬线极简 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #3a4145;
+  --muted: #9eabb3;
+  --code-bg: #f5f7f9;
+  --code-border: #dfe1e2;
+  --code-fg: #3a4145;
+  --c-key: #1c5dcc;
+  --c-str: #0e8762;
+  --c-num: #bb453a;
+  --c-fn: #9b3ace;
+  --c-com: #9eabb3;
+  --accent: #3eb0ef;
+  --accent-hover: #1f9ee0;
+  --accent-light: rgba(62, 176, 239, 0.1);
+  --table-border: #dfe1e2;
+  --table-header-bg: #f5f7f9;
+  --table-header-fg: #191919;
+  --border: #dfe1e2;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+/* 衬线字体：轻盈极简 */
+.container .preview-body,
+.container.wysiwyg-v2 .ProseMirror {
+  font-family: "Lora", "Georgia", "Songti SC", serif;
+}
+
+/* 标题：加粗大字号 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #191919;
+  font-weight: 700;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #191919;
+  font-weight: 700;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #191919;
+  font-weight: 700;
+}
+
+/* 引用块：青蓝边淡背景 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #3eb0ef;
+  background: rgba(62, 176, 239, 0.04);
+  color: #3a4145;
+}
+
+/* 链接 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #3eb0ef;
+  text-decoration-color: rgba(62, 176, 239, 0.4);
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #dfe1e2;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f5f7f9;
+  color: #191919;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f5f7f9;
+  border: 1px solid #dfe1e2;
+  color: #3a4145;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #dfe1e2;
+}
+
+/* 注释斜体 */
+.container .preview .token.comment,
+.container.wysiwyg-v2 .ProseMirror .token.comment {
+  font-style: italic;
+}

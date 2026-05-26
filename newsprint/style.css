@@ -1,0 +1,111 @@
+/* @id newsprint */
+/* @name Newsprint */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description Typora Newsprint 主题 - 报纸版式衬线风 */
+
+.container {
+  --bg: #fdfbf7;
+  --fg: #1a1a1a;
+  --muted: #5a5a5a;
+  --code-bg: #f5f1e8;
+  --code-border: #d8d2c0;
+  --code-fg: #1a1a1a;
+  --c-key: #1a4d8c;
+  --c-str: #7d5300;
+  --c-num: #7d2a2a;
+  --c-fn: #3a3a3a;
+  --c-com: #7a7a7a;
+  --accent: #1a4d8c;
+  --accent-hover: #103461;
+  --accent-light: rgba(26, 77, 140, 0.1);
+  --table-border: #1a1a1a;
+  --table-header-bg: #f0ebde;
+  --table-header-fg: #1a1a1a;
+  --border: #d8d2c0;
+}
+
+.container .preview {
+  --preview-bg: #fdfbf7;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fdfbf7;
+}
+
+/* 衬线字体：报纸感 */
+.container .preview-body,
+.container.wysiwyg-v2 .ProseMirror {
+  font-family: "Times New Roman", "Songti SC", serif;
+}
+
+/* 标题：加粗，h1 粗黑刊头线 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #1a1a1a;
+  font-weight: 700;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 0.3em;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+/* 引用块：黑边浅底斜体 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #1a1a1a;
+  background: rgba(0, 0, 0, 0.04);
+  color: #1a1a1a;
+  font-style: italic;
+}
+
+/* 链接 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #1a4d8c;
+  text-decoration-color: rgba(26, 77, 140, 0.4);
+}
+
+/* 表格：粗黑边报纸感 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #1a1a1a;
+  border-width: 2px;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f0ebde;
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f5f1e8;
+  border: 1px solid #d8d2c0;
+  color: #1a1a1a;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #1a1a1a;
+}
+
+/* 注释斜体 */
+.container .preview .token.comment,
+.container.wysiwyg-v2 .ProseMirror .token.comment {
+  font-style: italic;
+}

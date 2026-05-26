@@ -1,0 +1,88 @@
+/* @id solarized-dark */
+/* @name Solarized Dark */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Solarized Dark - Ethan Schoonover 经典暗色 */
+
+.container {
+  --bg: #002b36;
+  --fg: #839496;
+  --muted: #586e75;
+  --code-bg: #073642;
+  --code-border: #586e75;
+  --code-fg: #93a1a1;
+  --c-key: #859900;
+  --c-str: #2aa198;
+  --c-num: #d33682;
+  --c-fn: #268bd2;
+  --c-com: #586e75;
+  --accent: #268bd2;
+  --accent-hover: #4ba3da;
+  --accent-light: rgba(38, 139, 210, 0.15);
+  --table-border: #586e75;
+  --table-header-bg: #073642;
+  --table-header-fg: #93a1a1;
+  --border: #586e75;
+}
+
+.container .preview {
+  --preview-bg: #002b36;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #002b36;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #b58900;
+  border-bottom-color: rgba(181, 137, 0, 0.3);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #b58900;
+  border-bottom-color: rgba(181, 137, 0, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #b58900;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #859900;
+  background: rgba(133, 153, 0, 0.1);
+  color: #93a1a1;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #268bd2;
+  text-decoration-color: rgba(38, 139, 210, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #586e75;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #073642;
+  color: #93a1a1;
+  border-color: #586e75;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #073642;
+  color: #2aa198;
+  border: 1px solid #586e75;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #586e75;
+}

@@ -1,0 +1,88 @@
+/* @id rose-pine */
+/* @name Rosé Pine */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Rosé Pine 配色 - 柔和粉紫调暗色 */
+
+.container {
+  --bg: #191724;
+  --fg: #e0def4;
+  --muted: #908caa;
+  --code-bg: #1f1d2e;
+  --code-border: #26233a;
+  --code-fg: #e0def4;
+  --c-key: #c4a7e7;
+  --c-str: #f6c177;
+  --c-num: #eb6f92;
+  --c-fn: #9ccfd8;
+  --c-com: #6e6a86;
+  --accent: #ebbcba;
+  --accent-hover: #f2cdcb;
+  --accent-light: rgba(235, 188, 186, 0.15);
+  --table-border: #403d52;
+  --table-header-bg: #26233a;
+  --table-header-fg: #e0def4;
+  --border: #26233a;
+}
+
+.container .preview {
+  --preview-bg: #191724;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #191724;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #eb6f92;
+  border-bottom-color: rgba(235, 111, 146, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #eb6f92;
+  border-bottom-color: rgba(235, 111, 146, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #eb6f92;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #eb6f92;
+  background: rgba(235, 111, 146, 0.08);
+  color: #e0def4;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ebbcba;
+  text-decoration-color: rgba(235, 188, 186, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #403d52;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #26233a;
+  color: #e0def4;
+  border-color: #403d52;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #26233a;
+  color: #ebbcba;
+  border: 1px solid #403d52;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #26233a;
+}

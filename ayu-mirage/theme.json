@@ -1,0 +1,8 @@
+{
+  "id": "ayu-mirage",
+  "name": "Ayu Mirage",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Ayu Mirage 配色 - 介于明暗之间",
+  "main": "style.css"
+}

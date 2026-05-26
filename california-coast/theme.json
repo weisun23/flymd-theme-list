@@ -1,0 +1,8 @@
+{
+  "id": "california-coast",
+  "name": "California Coast",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian California Coast 移植 - 加州海岸暖蓝浅色",
+  "main": "style.css"
+}

@@ -1,0 +1,97 @@
+/* @id cupertino */
+/* @name Cupertino */
+/* @author flymd-theme-plugin */
+/* @description Cupertino 主题 - macOS Big Sur 风格 */
+/* @version 1.0.0 */
+
+.container {
+  --bg: #f5f5f7;
+  --fg: #1d1d1f;
+  --muted: #86868b;
+  --code-bg: #f0f0f3;
+  --code-border: #d2d2d7;
+  --code-fg: #1d1d1f;
+  --c-key: #aa0d91;
+  --c-str: #c41a16;
+  --c-num: #1c00cf;
+  --c-fn: #326d74;
+  --c-com: #007400;
+  --accent: #0071e3;
+  --accent-hover: #0058b8;
+  --accent-light: rgba(0, 113, 227, 0.12);
+  --table-border: #d2d2d7;
+  --table-header-bg: #fbfbfd;
+  --table-header-fg: #1d1d1f;
+  --border: #d2d2d7;
+}
+
+.container .preview {
+  --preview-bg: #f5f5f7;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #f5f5f7;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #1d1d1f;
+  font-weight: 700;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #1d1d1f;
+  font-weight: 700;
+  border-bottom: none;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #1d1d1f;
+  font-weight: 700;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #d2d2d7;
+  background: rgba(210, 210, 215, 0.3);
+  color: #515154;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #0071e3;
+  text-decoration-color: rgba(0, 113, 227, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #d2d2d7;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #fbfbfd;
+  color: #1d1d1f;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f0f0f3;
+  color: #aa0d91;
+  border: 1px solid #d2d2d7;
+  font-family: system-ui, -apple-system, "SF Mono", Menlo, monospace;
+}
+
+.container .preview pre code .comment,
+.container.wysiwyg-v2 .ProseMirror pre code .comment {
+  font-style: italic;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-top-color: #d2d2d7;
+}

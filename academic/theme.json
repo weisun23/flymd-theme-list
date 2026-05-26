@@ -1,0 +1,8 @@
+{
+  "id": "academic",
+  "name": "Academic",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Academic 主题 - 学术论文 LaTeX 风",
+  "main": "style.css"
+}

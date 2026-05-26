@@ -1,0 +1,8 @@
+{
+  "id": "tokyo-night",
+  "name": "Tokyo Night",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Tokyo Night 配色 - 深紫蓝东京夜景",
+  "main": "style.css"
+}

@@ -1,0 +1,88 @@
+/* @id ayu-mirage */
+/* @name Ayu Mirage */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Ayu Mirage 配色 - 介于明暗之间 */
+
+.container {
+  --bg: #1f2430;
+  --fg: #cbccc6;
+  --muted: #707a8c;
+  --code-bg: #191e2a;
+  --code-border: #33415e;
+  --code-fg: #cbccc6;
+  --c-key: #ffa759;
+  --c-str: #bae67e;
+  --c-num: #d4bfff;
+  --c-fn: #ffd580;
+  --c-com: #5c6773;
+  --accent: #ffa759;
+  --accent-hover: #ffbb85;
+  --accent-light: rgba(255, 167, 89, 0.15);
+  --table-border: #33415e;
+  --table-header-bg: #232834;
+  --table-header-fg: #cbccc6;
+  --border: #33415e;
+}
+
+.container .preview {
+  --preview-bg: #1f2430;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1f2430;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #ffcc66;
+  border-bottom-color: rgba(255, 204, 102, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #ffcc66;
+  border-bottom-color: rgba(255, 204, 102, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #ffcc66;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #ffa759;
+  background: rgba(255, 167, 89, 0.08);
+  color: #cbccc6;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ffa759;
+  text-decoration-color: rgba(255, 167, 89, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #33415e;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #232834;
+  color: #cbccc6;
+  border-color: #33415e;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #232834;
+  color: #ffcc66;
+  border: 1px solid #33415e;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #33415e;
+}

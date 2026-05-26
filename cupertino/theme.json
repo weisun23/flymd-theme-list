@@ -1,0 +1,8 @@
+{
+  "id": "cupertino",
+  "name": "Cupertino",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Cupertino 主题 - macOS Big Sur 风格",
+  "main": "style.css"
+}

@@ -1,0 +1,92 @@
+/* @id cybertron-flow */
+/* @name Cybertron Flow */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Obsidian Cybertron Flow 移植 - 赛博霓虹暗色 */
+
+.container {
+  --bg: #0a0e27;
+  --fg: #e0e7ff;
+  --muted: #7986b8;
+  --code-bg: #0d1340;
+  --code-border: #1f2a6b;
+  --code-fg: #e0e7ff;
+  --c-key: #ff007f;
+  --c-str: #00ff9d;
+  --c-num: #ffd700;
+  --c-fn: #00d4ff;
+  --c-com: #5566a8;
+  --accent: #ff007f;
+  --accent-hover: #ff3399;
+  --accent-light: rgba(255, 0, 127, 0.15);
+  --table-border: #1f2a6b;
+  --table-header-bg: #101547;
+  --table-header-fg: #e0e7ff;
+  --border: #1f2a6b;
+}
+
+.container .preview {
+  --preview-bg: #0a0e27;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #0a0e27;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #00ffea;
+  border-bottom-color: rgba(0, 255, 234, 0.25);
+  text-shadow: 0 0 8px rgba(0, 255, 234, 0.5);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #00ffea;
+  border-bottom-color: rgba(0, 255, 234, 0.2);
+  text-shadow: 0 0 8px rgba(0, 255, 234, 0.5);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #00ffea;
+  text-shadow: 0 0 8px rgba(0, 255, 234, 0.5);
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #00ffea;
+  background: rgba(0, 255, 234, 0.06);
+  color: #e0e7ff;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ff007f;
+  text-decoration-color: #ff007f;
+  text-shadow: 0 0 4px rgba(255, 0, 127, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #1f2a6b;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #101547;
+  color: #e0e7ff;
+  border-color: #1f2a6b;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #101547;
+  color: #00ffea;
+  border: 1px solid #1f2a6b;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #1f2a6b;
+}

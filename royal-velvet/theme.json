@@ -1,0 +1,8 @@
+{
+  "id": "royal-velvet",
+  "name": "Royal Velvet",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Royal Velvet 移植 - 紫色丝绒奢华暗色",
+  "main": "style.css"
+}

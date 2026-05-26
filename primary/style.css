@@ -1,0 +1,91 @@
+/* @id primary */
+/* @name Primary */
+/* @author flymd-theme-plugin */
+/* @description Obsidian Primary 主题（@CeciliaMay）移植 - 纯净亮色 */
+/* @version 1.0.0 */
+
+.container {
+  --bg: #fff8f0;
+  --fg: #404040;
+  --muted: #7f7f7f;
+  --code-bg: #fdf3e7;
+  --code-border: #e8d4b8;
+  --code-fg: #404040;
+  --c-key: #d9534f;
+  --c-str: #5cb85c;
+  --c-num: #f0ad4e;
+  --c-fn: #5bc0de;
+  --c-com: #a39b8a;
+  --accent: #d9a679;
+  --accent-hover: #c89460;
+  --accent-light: rgba(217, 166, 121, 0.14);
+  --table-border: #e8d4b8;
+  --table-header-bg: #fdf3e7;
+  --table-header-fg: #5e3023;
+  --border: #e8d4b8;
+}
+
+.container .preview {
+  --preview-bg: #fff8f0;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fff8f0;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #5e3023;
+  border-bottom: 2px solid #d9a679;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #5e3023;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #5e3023;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #d9a679;
+  background: rgba(217, 166, 121, 0.08);
+  color: #5a4a3a;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #d9a679;
+  text-decoration-color: rgba(217, 166, 121, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #e8d4b8;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #fdf3e7;
+  color: #5e3023;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #fdf3e7;
+  color: #d9534f;
+  border: 1px solid #e8d4b8;
+}
+
+.container .preview pre code .comment,
+.container.wysiwyg-v2 .ProseMirror pre code .comment {
+  font-style: italic;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-top-color: #e8d4b8;
+}

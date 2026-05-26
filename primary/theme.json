@@ -1,0 +1,8 @@
+{
+  "id": "primary",
+  "name": "Primary",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Primary 主题（@CeciliaMay）移植 - 纯净亮色",
+  "main": "style.css"
+}

@@ -1,0 +1,88 @@
+/* @id tokyo-night */
+/* @name Tokyo Night */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Tokyo Night 配色 - 深紫蓝东京夜景 */
+
+.container {
+  --bg: #1a1b26;
+  --fg: #a9b1d6;
+  --muted: #565f89;
+  --code-bg: #16161e;
+  --code-border: #2f3549;
+  --code-fg: #a9b1d6;
+  --c-key: #bb9af7;
+  --c-str: #9ece6a;
+  --c-num: #ff9e64;
+  --c-fn: #7aa2f7;
+  --c-com: #565f89;
+  --accent: #bb9af7;
+  --accent-hover: #c8b0f8;
+  --accent-light: rgba(187, 154, 247, 0.15);
+  --table-border: #3b4261;
+  --table-header-bg: #24283b;
+  --table-header-fg: #a9b1d6;
+  --border: #2f3549;
+}
+
+.container .preview {
+  --preview-bg: #1a1b26;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1a1b26;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #7aa2f7;
+  border-bottom-color: rgba(122, 162, 247, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #7aa2f7;
+  border-bottom-color: rgba(122, 162, 247, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #7aa2f7;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #7aa2f7;
+  background: rgba(122, 162, 247, 0.08);
+  color: #a9b1d6;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #bb9af7;
+  text-decoration-color: rgba(187, 154, 247, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #3b4261;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #24283b;
+  color: #a9b1d6;
+  border-color: #3b4261;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #24283b;
+  color: #bb9af7;
+  border: 1px solid #2f3549;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #2f3549;
+}

@@ -1,0 +1,88 @@
+/* @id california-coast */
+/* @name California Coast */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Obsidian California Coast 移植 - 加州海岸暖蓝浅色 */
+
+.container {
+  --bg: #f7f3ec;
+  --fg: #3d4451;
+  --muted: #8b8b8b;
+  --code-bg: #fbf5e8;
+  --code-border: #e0d8c5;
+  --code-fg: #3d4451;
+  --c-key: #e76f51;
+  --c-str: #2a9d8f;
+  --c-num: #c97b2c;
+  --c-fn: #0277bd;
+  --c-com: #8b8b8b;
+  --accent: #0277bd;
+  --accent-hover: #0288d1;
+  --accent-light: rgba(2, 119, 189, 0.12);
+  --table-border: #e0d8c5;
+  --table-header-bg: #f1ebde;
+  --table-header-fg: #3d4451;
+  --border: #e0d8c5;
+}
+
+.container .preview {
+  --preview-bg: #f7f3ec;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #f7f3ec;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #e76f51;
+  border-bottom-color: rgba(231, 111, 81, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #e76f51;
+  border-bottom-color: rgba(231, 111, 81, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #e76f51;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #0277bd;
+  background: rgba(2, 119, 189, 0.06);
+  color: #3d4451;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #0277bd;
+  text-decoration-color: rgba(2, 119, 189, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #e0d8c5;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f1ebde;
+  color: #3d4451;
+  border-color: #e0d8c5;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f1ebde;
+  color: #e76f51;
+  border: 1px solid #e0d8c5;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #e0d8c5;
+}

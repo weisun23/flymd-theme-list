@@ -1,0 +1,91 @@
+/* @id lyt-mode */
+/* @name LYT Mode */
+/* @author flymd-theme-plugin */
+/* @description Obsidian LYT Mode（@nickmilo）移植 - Linking Your Thinking 笔记法专用 */
+/* @version 1.0.0 */
+
+.container {
+  --bg: #f8f6f1;
+  --fg: #3a3a3a;
+  --muted: #6f6f6f;
+  --code-bg: #efece4;
+  --code-border: #d6d2c8;
+  --code-fg: #3a3a3a;
+  --c-key: #7c3aed;
+  --c-str: #0f7b6c;
+  --c-num: #cc5500;
+  --c-fn: #1a73e8;
+  --c-com: #9b9b9b;
+  --accent: #705dcf;
+  --accent-hover: #5a48b5;
+  --accent-light: rgba(112, 93, 207, 0.12);
+  --table-border: #d6d2c8;
+  --table-header-bg: #efece4;
+  --table-header-fg: #3a3a3a;
+  --border: #d6d2c8;
+}
+
+.container .preview {
+  --preview-bg: #f8f6f1;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #f8f6f1;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #3a3a3a;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #3a3a3a;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #3a3a3a;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #a78bfa;
+  background: rgba(167, 139, 250, 0.06);
+  color: #4a4a4a;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #705dcf;
+  text-decoration-color: rgba(112, 93, 207, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #d6d2c8;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #efece4;
+  color: #3a3a3a;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #efece4;
+  color: #7c3aed;
+  border: 1px solid #d6d2c8;
+}
+
+.container .preview pre code .comment,
+.container.wysiwyg-v2 .ProseMirror pre code .comment {
+  font-style: italic;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-top-color: #d6d2c8;
+}

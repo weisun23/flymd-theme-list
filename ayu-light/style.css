@@ -1,0 +1,88 @@
+/* @id ayu-light */
+/* @name Ayu Light */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Ayu Light 配色 - 暖橙浅色 */
+
+.container {
+  --bg: #fafafa;
+  --fg: #5c6166;
+  --muted: #828c99;
+  --code-bg: #fcfcfc;
+  --code-border: #e6e1cf;
+  --code-fg: #5c6166;
+  --c-key: #fa8d3e;
+  --c-str: #86b300;
+  --c-num: #a37acc;
+  --c-fn: #f2ae49;
+  --c-com: #abb0b6;
+  --accent: #ff9940;
+  --accent-hover: #ffae66;
+  --accent-light: rgba(255, 153, 64, 0.15);
+  --table-border: #e6e1cf;
+  --table-header-bg: #f0eee4;
+  --table-header-fg: #3a4a5e;
+  --border: #e6e1cf;
+}
+
+.container .preview {
+  --preview-bg: #fafafa;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fafafa;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #3a4a5e;
+  border-bottom-color: rgba(58, 74, 94, 0.2);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #3a4a5e;
+  border-bottom-color: rgba(58, 74, 94, 0.15);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #3a4a5e;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #ff9940;
+  background: rgba(255, 153, 64, 0.08);
+  color: #5c6166;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ff9940;
+  text-decoration-color: rgba(255, 153, 64, 0.3);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #e6e1cf;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f0eee4;
+  color: #3a4a5e;
+  border-color: #e6e1cf;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f0eee4;
+  color: #fa8d3e;
+  border: 1px solid #e6e1cf;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #e6e1cf;
+}

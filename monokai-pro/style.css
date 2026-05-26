@@ -1,0 +1,88 @@
+/* @id monokai-pro */
+/* @name Monokai Pro */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Monokai Pro 配色 - 经典暗色编辑器配色 */
+
+.container {
+  --bg: #2d2a2e;
+  --fg: #fcfcfa;
+  --muted: #727072;
+  --code-bg: #221f22;
+  --code-border: #403e41;
+  --code-fg: #fcfcfa;
+  --c-key: #ff6188;
+  --c-str: #ffd866;
+  --c-num: #ab9df2;
+  --c-fn: #a9dc76;
+  --c-com: #727072;
+  --accent: #ff6188;
+  --accent-hover: #ff7a9c;
+  --accent-light: rgba(255, 97, 136, 0.15);
+  --table-border: #5b595c;
+  --table-header-bg: #403e41;
+  --table-header-fg: #fcfcfa;
+  --border: #403e41;
+}
+
+.container .preview {
+  --preview-bg: #2d2a2e;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #2d2a2e;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #ffd866;
+  border-bottom-color: rgba(255, 216, 102, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #ffd866;
+  border-bottom-color: rgba(255, 216, 102, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #ffd866;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #ff6188;
+  background: rgba(255, 97, 136, 0.08);
+  color: #fcfcfa;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ff6188;
+  text-decoration-color: rgba(255, 97, 136, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #5b595c;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #403e41;
+  color: #fcfcfa;
+  border-color: #5b595c;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #403e41;
+  color: #ffd866;
+  border: 1px solid #5b595c;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #403e41;
+}

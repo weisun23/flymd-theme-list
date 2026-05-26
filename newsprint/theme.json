@@ -1,0 +1,8 @@
+{
+  "id": "newsprint",
+  "name": "Newsprint",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Newsprint 主题 - 报纸版式衬线风",
+  "main": "style.css"
+}

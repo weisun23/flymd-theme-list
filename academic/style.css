@@ -1,0 +1,118 @@
+/* @id academic */
+/* @name Academic */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description Academic 主题 - 学术论文 LaTeX 风 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #666666;
+  --code-bg: #f5f5f5;
+  --code-border: #cccccc;
+  --code-fg: #1a1a1a;
+  --c-key: #0000aa;
+  --c-str: #aa0000;
+  --c-num: #0066cc;
+  --c-fn: #660066;
+  --c-com: #008800;
+  --accent: #990000;
+  --accent-hover: #6e0000;
+  --accent-light: rgba(153, 0, 0, 0.08);
+  --table-border: #1a1a1a;
+  --table-header-bg: #f5f5f5;
+  --table-header-fg: #1a1a1a;
+  --border: #cccccc;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+/* 衬线字体：LaTeX 风 */
+.container .preview-body,
+.container.wysiwyg-v2 .ProseMirror {
+  font-family: "Computer Modern", "Latin Modern Roman", "Times New Roman", serif;
+}
+
+/* 段落首行缩进 */
+.container .preview-body p,
+.container.wysiwyg-v2 .ProseMirror p {
+  text-indent: 2em;
+}
+
+/* 标题：h1 上下双线（章节标题风） */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #1a1a1a;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 0.3em 0;
+  text-indent: 0;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #1a1a1a;
+  text-indent: 0;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #1a1a1a;
+  text-indent: 0;
+}
+
+/* 引用块：缩进灰边 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #666666;
+  background: rgba(0, 0, 0, 0.03);
+  color: #1a1a1a;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* 链接：学术红 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #990000;
+  text-decoration-color: rgba(153, 0, 0, 0.4);
+}
+
+/* 表格：粗黑边 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #1a1a1a;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f5f5f5;
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
+  color: #1a1a1a;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #1a1a1a;
+}
+
+/* 注释斜体 */
+.container .preview .token.comment,
+.container.wysiwyg-v2 .ProseMirror .token.comment {
+  font-style: italic;
+}

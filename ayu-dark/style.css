@@ -1,0 +1,88 @@
+/* @id ayu-dark */
+/* @name Ayu Dark */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Ayu Dark 配色 - 深色暖橙强调 */
+
+.container {
+  --bg: #0b0e14;
+  --fg: #bfbdb6;
+  --muted: #565b66;
+  --code-bg: #0d1017;
+  --code-border: #1d2433;
+  --code-fg: #bfbdb6;
+  --c-key: #ff8f40;
+  --c-str: #aad94c;
+  --c-num: #d2a6ff;
+  --c-fn: #ffb454;
+  --c-com: #acb6bf;
+  --accent: #ff8f40;
+  --accent-hover: #ffaa6b;
+  --accent-light: rgba(255, 143, 64, 0.15);
+  --table-border: #1d2433;
+  --table-header-bg: #131721;
+  --table-header-fg: #bfbdb6;
+  --border: #1d2433;
+}
+
+.container .preview {
+  --preview-bg: #0b0e14;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #0b0e14;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #e6b450;
+  border-bottom-color: rgba(230, 180, 80, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #e6b450;
+  border-bottom-color: rgba(230, 180, 80, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #e6b450;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #ff8f40;
+  background: rgba(255, 143, 64, 0.08);
+  color: #bfbdb6;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ff8f40;
+  text-decoration-color: rgba(255, 143, 64, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #1d2433;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #131721;
+  color: #bfbdb6;
+  border-color: #1d2433;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #131721;
+  color: #e6b450;
+  border: 1px solid #1d2433;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #1d2433;
+}

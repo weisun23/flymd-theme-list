@@ -1,0 +1,88 @@
+/* @id everforest-dark */
+/* @name Everforest Dark */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Everforest Dark 配色 - 森林绿护眼暗色 */
+
+.container {
+  --bg: #2d353b;
+  --fg: #d3c6aa;
+  --muted: #859289;
+  --code-bg: #272e33;
+  --code-border: #414b50;
+  --code-fg: #d3c6aa;
+  --c-key: #e67e80;
+  --c-str: #a7c080;
+  --c-num: #d699b6;
+  --c-fn: #7fbbb3;
+  --c-com: #859289;
+  --accent: #7fbbb3;
+  --accent-hover: #9dd0c8;
+  --accent-light: rgba(127, 187, 179, 0.15);
+  --table-border: #414b50;
+  --table-header-bg: #374247;
+  --table-header-fg: #d3c6aa;
+  --border: #414b50;
+}
+
+.container .preview {
+  --preview-bg: #2d353b;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #2d353b;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #a7c080;
+  border-bottom-color: rgba(167, 192, 128, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #a7c080;
+  border-bottom-color: rgba(167, 192, 128, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #a7c080;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #a7c080;
+  background: rgba(167, 192, 128, 0.08);
+  color: #d3c6aa;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #7fbbb3;
+  text-decoration-color: rgba(127, 187, 179, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #414b50;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #374247;
+  color: #d3c6aa;
+  border-color: #414b50;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #374247;
+  color: #d3c6aa;
+  border: 1px solid #414b50;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #414b50;
+}

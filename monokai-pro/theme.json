@@ -1,0 +1,8 @@
+{
+  "id": "monokai-pro",
+  "name": "Monokai Pro",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Monokai Pro 配色 - 经典暗色编辑器配色",
+  "main": "style.css"
+}
