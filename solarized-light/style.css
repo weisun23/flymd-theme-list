@@ -1,0 +1,81 @@
+/* @id solarized-light */
+/* @name Solarized Light */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description 经典 Ethan Schoonover Solarized 浅色配色 - 米黄护眼 */
+
+.container {
+  --bg: #fdf6e3;
+  --fg: #586e75;
+  --code-bg: #eee8d5;
+  --code-border: #93a1a1;
+  --code-fg: #586e75;
+  --c-key: #859900;
+  --c-str: #2aa198;
+  --c-num: #d33682;
+  --c-fn: #268bd2;
+  --c-com: #93a1a1;
+  --accent: #268bd2;
+  --accent-hover: #1e6fa8;
+  --accent-light: #e8f1f9;
+  --table-border: #93a1a1;
+  --table-header-bg: #eee8d5;
+  --table-header-fg: #586e75;
+}
+
+.container .preview {
+  --preview-bg: #fdf6e3;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fdf6e3;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #b58900;
+  border-bottom: 2px solid #93a1a1;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #b58900;
+  border-bottom: 1px solid #93a1a1;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #b58900;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left: 4px solid #859900;
+  background: #eee8d5;
+  color: #586e75;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #268bd2;
+  text-decoration-color: #268bd2;
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #93a1a1;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #eee8d5;
+  color: #586e75;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #eee8d5;
+  color: #d33682;
+  border-radius: 3px;
+  padding: 2px 6px;
+}

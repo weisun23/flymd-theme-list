@@ -1,0 +1,8 @@
+{
+  "id": "dracula",
+  "name": "Dracula",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Dracula 官方配色 - 经典紫黑暗色",
+  "main": "style.css"
+}

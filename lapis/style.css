@@ -1,0 +1,81 @@
+/* @id lapis */
+/* @name Lapis */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Typora Lapis 主题移植 - 蓝灰简约学术风 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #34495e;
+  --code-bg: #f4f6f7;
+  --code-border: #dde2e5;
+  --code-fg: #34495e;
+  --c-key: #2980b9;
+  --c-str: #16a085;
+  --c-num: #c0392b;
+  --c-fn: #8e44ad;
+  --c-com: #95a5a6;
+  --accent: #3498db;
+  --accent-hover: #2980b9;
+  --accent-light: #eaf4fb;
+  --table-border: #bdc3c7;
+  --table-header-bg: #ecf0f1;
+  --table-header-fg: #2c3e50;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #bdc3c7;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #2c3e50;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #2c3e50;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left: 4px solid #3498db;
+  background: #f4f6f7;
+  color: #7f8c8d;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #3498db;
+  text-decoration-color: #3498db;
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #bdc3c7;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #ecf0f1;
+  color: #2c3e50;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f4f6f7;
+  color: #c0392b;
+  border-radius: 3px;
+  padding: 2px 6px;
+}

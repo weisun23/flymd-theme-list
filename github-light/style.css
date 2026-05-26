@@ -1,0 +1,87 @@
+/* @id github-light */
+/* @name GitHub Light */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description GitHub 官方文档浅色风格 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --code-bg: #f6f8fa;
+  --code-border: #d1d9e0;
+  --code-fg: #1f2328;
+  --c-key: #cf222e;
+  --c-str: #0a3069;
+  --c-num: #0550ae;
+  --c-fn: #8250df;
+  --c-com: #6e7781;
+  --accent: #0969da;
+  --accent-hover: #0550ae;
+  --accent-light: rgba(9, 105, 218, 0.1);
+  --table-border: #d1d9e0;
+  --table-header-bg: #f6f8fa;
+  --table-header-fg: #1f2328;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+/* 标题：同正文色，h1/h2 底部细分割线 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #1f2328;
+  border-bottom: 1px solid #d1d9e0;
+  padding-bottom: 0.3em;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #1f2328;
+  border-bottom: 1px solid #d1d9e0;
+  padding-bottom: 0.3em;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #1f2328;
+}
+
+/* 引用块 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #d1d9e0;
+  background: transparent;
+  color: #656d76;
+}
+
+/* 链接 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #0969da;
+  text-decoration-color: rgba(9, 105, 218, 0.3);
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #d1d9e0;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f6f8fa;
+  color: #1f2328;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f6f8fa;
+  border: 1px solid #d1d9e0;
+  color: #1f2328;
+}

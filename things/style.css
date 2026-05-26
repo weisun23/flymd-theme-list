@@ -1,0 +1,84 @@
+/* @id things */
+/* @name Things */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description Obsidian Things 主题（@colineckert）移植 - 温暖橙色调 */
+
+.container {
+  --bg: #fbfbf9;
+  --fg: #3d3d3d;
+  --code-bg: #f5f1ec;
+  --code-border: #e8dfc8;
+  --code-fg: #3d3d3d;
+  --c-key: #e67e22;
+  --c-str: #229954;
+  --c-num: #c0392b;
+  --c-fn: #8e44ad;
+  --c-com: #a89c8b;
+  --accent: #1599f4;
+  --accent-hover: #0d7dc7;
+  --accent-light: rgba(21, 153, 244, 0.1);
+  --table-border: #e8dfc8;
+  --table-header-bg: #f5f1ec;
+  --table-header-fg: #3d3d3d;
+}
+
+.container .preview {
+  --preview-bg: #fbfbf9;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fbfbf9;
+}
+
+/* 标题：橙色 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #e67e22;
+  border-bottom-color: rgba(230, 126, 34, 0.2);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #e67e22;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #d35400;
+}
+
+/* 引用块：橙色边 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #e67e22;
+  background: rgba(230, 126, 34, 0.08);
+  color: #5a4a3a;
+}
+
+/* 链接：蓝 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #1599f4;
+  text-decoration-color: rgba(21, 153, 244, 0.3);
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #e8dfc8;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f5f1ec;
+  color: #3d3d3d;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f5f1ec;
+  border: 1px solid #e8dfc8;
+  color: #c0392b;
+}

@@ -1,0 +1,8 @@
+{
+  "id": "minimal",
+  "name": "Minimal",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Minimal 主题（@kepano）移植 - 极简黑白灰",
+  "main": "style.css"
+}

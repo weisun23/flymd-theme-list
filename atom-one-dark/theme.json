@@ -1,0 +1,8 @@
+{
+  "id": "atom-one-dark",
+  "name": "Atom One Dark",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Atom/VSCode One Dark Pro 配色",
+  "main": "style.css"
+}

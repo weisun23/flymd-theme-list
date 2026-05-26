@@ -1,0 +1,8 @@
+{
+  "id": "solarized-light",
+  "name": "Solarized Light",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "经典 Ethan Schoonover Solarized 浅色配色 - 米黄护眼",
+  "main": "style.css"
+}

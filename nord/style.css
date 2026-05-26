@@ -1,0 +1,113 @@
+/* @id nord */
+/* @name Nord */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Arctic Ice Studio Nord 配色 - 北欧极地暗色 */
+
+.container {
+  --bg: #2e3440;
+  --fg: #d8dee9;
+  --muted: #81a1c1;
+  --code-bg: #3b4252;
+  --code-border: #4c566a;
+  --code-fg: #d8dee9;
+  --c-key: #81a1c1;
+  --c-str: #a3be8c;
+  --c-num: #b48ead;
+  --c-fn: #88c0d0;
+  --c-com: #616e88;
+  --accent: #88c0d0;
+  --accent-hover: #8fbcbb;
+  --accent-light: rgba(136, 192, 208, 0.15);
+  --accent-dark: #5e81ac;
+  --table-border: #4c566a;
+  --table-header-bg: #3b4252;
+  --table-header-fg: #d8dee9;
+  --border: #4c566a;
+}
+
+.container .preview {
+  --preview-bg: #2e3440;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #2e3440;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #88c0d0;
+  border-bottom-color: rgba(136, 192, 208, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #88c0d0;
+  border-bottom-color: rgba(136, 192, 208, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #88c0d0;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #5e81ac;
+  background: rgba(94, 129, 172, 0.15);
+  color: #d8dee9;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #88c0d0;
+  text-decoration-color: rgba(136, 192, 208, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #4c566a;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #3b4252;
+  color: #d8dee9;
+  border-color: #4c566a;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #3b4252;
+  color: #d8dee9;
+  border: 1px solid #4c566a;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #4c566a;
+}
+
+body.dark-mode .container {
+  --bg: #2e3440;
+  --fg: #d8dee9;
+  --muted: #81a1c1;
+  --code-bg: #3b4252;
+  --code-border: #4c566a;
+  --code-fg: #d8dee9;
+  --accent: #88c0d0;
+  --border: #4c566a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    --bg: #2e3440;
+    --fg: #d8dee9;
+    --muted: #81a1c1;
+    --code-bg: #3b4252;
+    --code-border: #4c566a;
+    --code-fg: #d8dee9;
+    --accent: #88c0d0;
+    --border: #4c566a;
+  }
+}

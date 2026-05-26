@@ -1,0 +1,8 @@
+{
+  "id": "things",
+  "name": "Things",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Things 主题（@colineckert）移植 - 温暖橙色调",
+  "main": "style.css"
+}

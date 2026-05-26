@@ -1,0 +1,8 @@
+{
+  "id": "github-light",
+  "name": "GitHub Light",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "GitHub 官方文档浅色风格",
+  "main": "style.css"
+}

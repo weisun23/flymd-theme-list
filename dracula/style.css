@@ -1,0 +1,113 @@
+/* @id dracula */
+/* @name Dracula */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Dracula 官方配色 - 经典紫黑暗色 */
+
+.container {
+  --bg: #282a36;
+  --fg: #f8f8f2;
+  --muted: #6272a4;
+  --code-bg: #21222c;
+  --code-border: #44475a;
+  --code-fg: #f8f8f2;
+  --c-key: #ff79c6;
+  --c-str: #f1fa8c;
+  --c-num: #bd93f9;
+  --c-fn: #50fa7b;
+  --c-com: #6272a4;
+  --accent: #ff79c6;
+  --accent-hover: #ff92d0;
+  --accent-light: rgba(255, 121, 198, 0.15);
+  --accent-dark: #bd93f9;
+  --table-border: #6272a4;
+  --table-header-bg: #44475a;
+  --table-header-fg: #f8f8f2;
+  --border: #44475a;
+}
+
+.container .preview {
+  --preview-bg: #282a36;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #282a36;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #bd93f9;
+  border-bottom-color: rgba(189, 147, 249, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #bd93f9;
+  border-bottom-color: rgba(189, 147, 249, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #bd93f9;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #bd93f9;
+  background: rgba(189, 147, 249, 0.1);
+  color: #f8f8f2;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ff79c6;
+  text-decoration-color: rgba(255, 121, 198, 0.35);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #6272a4;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #44475a;
+  color: #f8f8f2;
+  border-color: #6272a4;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #44475a;
+  color: #f8f8f2;
+  border: 1px solid #6272a4;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #44475a;
+}
+
+body.dark-mode .container {
+  --bg: #282a36;
+  --fg: #f8f8f2;
+  --muted: #6272a4;
+  --code-bg: #21222c;
+  --code-border: #44475a;
+  --code-fg: #f8f8f2;
+  --accent: #ff79c6;
+  --border: #44475a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    --bg: #282a36;
+    --fg: #f8f8f2;
+    --muted: #6272a4;
+    --code-bg: #21222c;
+    --code-border: #44475a;
+    --code-fg: #f8f8f2;
+    --accent: #ff79c6;
+    --border: #44475a;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "nord",
+  "name": "Nord",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Arctic Ice Studio Nord 配色 - 北欧极地暗色",
+  "main": "style.css"
+}

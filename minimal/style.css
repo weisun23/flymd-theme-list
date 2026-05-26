@@ -1,0 +1,93 @@
+/* @id minimal */
+/* @name Minimal */
+/* @author flymd-theme-plugin */
+/* @version 1.0.0 */
+/* @description Obsidian Minimal 主题（@kepano）移植 - 极简黑白灰 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #202020;
+  --code-bg: #f6f6f6;
+  --code-border: #e0e0e0;
+  --code-fg: #202020;
+  --c-key: #705dcf;
+  --c-str: #0f7b6c;
+  --c-num: #cc5500;
+  --c-fn: #1a73e8;
+  --c-com: #999999;
+  --accent: #705dcf;
+  --accent-hover: #5a48b8;
+  --accent-light: rgba(112, 93, 207, 0.1);
+  --table-border: #e0e0e0;
+  --table-header-bg: #f6f6f6;
+  --table-header-fg: #202020;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+/* 标题：纯黑加粗 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #000000;
+  font-weight: 700;
+  border-bottom-color: #e0e0e0;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #000000;
+  font-weight: 700;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #000000;
+  font-weight: 700;
+}
+
+/* 次要文字 */
+.container .preview p,
+.container.wysiwyg-v2 .ProseMirror p {
+  color: #202020;
+}
+
+/* 引用块：淡灰色边 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #e0e0e0;
+  background: #fafafa;
+  color: #666666;
+}
+
+/* 链接：紫罗兰 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #705dcf;
+  text-decoration-color: rgba(112, 93, 207, 0.3);
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #e0e0e0;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f6f6f6;
+  color: #202020;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f6f6f6;
+  border: 1px solid #e0e0e0;
+  color: #202020;
+}

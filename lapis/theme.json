@@ -1,0 +1,8 @@
+{
+  "id": "lapis",
+  "name": "Lapis",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Lapis 主题移植 - 蓝灰简约学术风",
+  "main": "style.css"
+}

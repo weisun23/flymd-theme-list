@@ -1,0 +1,109 @@
+/* @id catppuccin-mocha */
+/* @name Catppuccin Mocha */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Catppuccin Mocha 配色 - 柔和暗紫调 */
+
+.container {
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --muted: #a6adc8;
+  --code-bg: #181825;
+  --code-border: #313244;
+  --code-fg: #cdd6f4;
+  --c-key: #cba6f7;
+  --c-str: #a6e3a1;
+  --c-num: #fab387;
+  --c-fn: #89b4fa;
+  --c-com: #7f849c;
+  --accent: #89b4fa;
+  --accent-hover: #b4befe;
+  --accent-light: rgba(137, 180, 250, 0.15);
+  --accent-dark: #74c7ec;
+  --table-border: #45475a;
+  --table-header-bg: #313244;
+  --table-header-fg: #cdd6f4;
+  --border: #313244;
+}
+
+.container .preview {
+  --preview-bg: #1e1e2e;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1e1e2e;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #cba6f7;
+  border-bottom-color: rgba(203, 166, 247, 0.25);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #cba6f7;
+  border-bottom-color: rgba(203, 166, 247, 0.2);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #cba6f7;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #cba6f7;
+  background: rgba(203, 166, 247, 0.1);
+  color: #a6adc8;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #89b4fa;
+  text-decoration-color: rgba(137, 180, 250, 0.4);
+}
+
+.container .preview a:hover,
+.container.wysiwyg-v2 .ProseMirror a:hover {
+  color: #b4befe;
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #45475a;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #313244;
+  color: #cdd6f4;
+  border-color: #45475a;
+}
+
+.container .preview table td,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border-color: #45475a;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #181825;
+  color: #f5c2e7;
+  border: 1px solid #313244;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #313244;
+  background: #313244;
+}
+
+/* 注释（comment）斜体 */
+.container .preview pre code .token.comment,
+.container .preview pre code .hljs-comment,
+.container.wysiwyg-v2 .ProseMirror pre code .token.comment,
+.container.wysiwyg-v2 .ProseMirror pre code .hljs-comment {
+  font-style: italic;
+  color: #7f849c;
+}

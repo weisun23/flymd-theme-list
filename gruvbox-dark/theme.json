@@ -1,0 +1,8 @@
+{
+  "id": "gruvbox-dark",
+  "name": "Gruvbox Dark",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Gruvbox Dark Hard - 复古暖色调暗色主题",
+  "main": "style.css"
+}
