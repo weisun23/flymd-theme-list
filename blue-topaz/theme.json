@@ -1,0 +1,8 @@
+{
+  "id": "blue-topaz",
+  "name": "Blue Topaz",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Blue Topaz 主题（@PKM-er）移植 - 蓝水晶配色",
+  "main": "style.css"
+}

@@ -1,0 +1,115 @@
+/* @id shimmering-focus */
+/* @name Shimmering Focus */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Obsidian Shimmering Focus 主题（@chrisgrieser）移植 - 极简专注白 */
+
+.container {
+  --bg: #fafafa;
+  --fg: #1c1c1c;
+  --muted: #6e6e6e;
+  --code-bg: #f0f0f0;
+  --code-border: #e0e0e0;
+  --code-fg: #1c1c1c;
+  --c-key: #0066cc;
+  --c-str: #008000;
+  --c-num: #aa5500;
+  --c-fn: #5a3e9a;
+  --c-com: #888888;
+  --accent: #0066cc;
+  --accent-hover: #004c99;
+  --accent-light: rgba(0, 102, 204, 0.1);
+  --table-border: #dcdcdc;
+  --table-header-bg: #f0f0f0;
+  --table-header-fg: #1c1c1c;
+  --border: #e0e0e0;
+}
+
+.container .preview {
+  --preview-bg: #fafafa;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fafafa;
+}
+
+/* 标题：纯黑，h1 极简无下划线，h2 细分割线 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #000000;
+  border-bottom: none;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #000000;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #000000;
+}
+
+/* 引用块：纯净无背景 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #dcdcdc;
+  background: transparent;
+  color: #4a4a4a;
+}
+
+/* 链接：书签蓝 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #0066cc;
+  text-decoration-color: rgba(0, 102, 204, 0.35);
+}
+
+.container .preview a:hover,
+.container.wysiwyg-v2 .ProseMirror a:hover {
+  color: #004c99;
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #dcdcdc;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f0f0f0;
+  color: #1c1c1c;
+  border-color: #dcdcdc;
+}
+
+.container .preview table td,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border-color: #dcdcdc;
+}
+
+/* 行内代码：等宽 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f0f0f0;
+  color: #1c1c1c;
+  border: 1px solid #e0e0e0;
+  font-family: "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #dcdcdc;
+  background: #dcdcdc;
+}
+
+/* 注释（comment）斜体 */
+.container .preview pre code .token.comment,
+.container .preview pre code .hljs-comment,
+.container.wysiwyg-v2 .ProseMirror pre code .token.comment,
+.container.wysiwyg-v2 .ProseMirror pre code .hljs-comment {
+  font-style: italic;
+  color: #888888;
+}

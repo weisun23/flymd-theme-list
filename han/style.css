@@ -1,0 +1,119 @@
+/* @id han */
+/* @name Han */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Typora Han 主题移植 - 中式古典书法风 */
+
+.container {
+  --bg: #fdfaf2;
+  --fg: #2b1d0e;
+  --muted: #6b5d4e;
+
+  --code-bg: #f2ebd9;
+  --code-border: #d4c5a3;
+  --code-fg: #2b1d0e;
+
+  --c-key: #8b0000;
+  --c-str: #556b2f;
+  --c-num: #b8860b;
+  --c-fn: #4b0082;
+  --c-com: #9e8a72;
+
+  --accent: #a52a2a;
+  --accent-hover: #8b0000;
+  --accent-light: rgba(165,42,42,0.14);
+
+  --table-border: #d4c5a3;
+  --table-header-bg: #f2ebd9;
+  --table-header-fg: #2b1d0e;
+
+  --border: #d4c5a3;
+}
+
+.container .preview {
+  --preview-bg: #fdfaf2;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #fdfaf2;
+}
+
+.container .preview-body,
+.container.wysiwyg-v2 .ProseMirror {
+  font-family: "Songti SC", "STSong", "FangSong", "SimSun", serif;
+}
+
+.container .preview-body h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #8b0000;
+  border-bottom: 2px double #c79d6b;
+  padding-bottom: 0.3em;
+}
+
+.container .preview-body h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #8b0000;
+}
+
+.container .preview-body h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #8b0000;
+}
+
+.container .preview-body blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left: 4px solid #c79d6b;
+  background: rgba(199,157,107,0.08);
+  color: #5d4037;
+  padding: 0.6em 1em;
+  border-radius: 0 4px 4px 0;
+}
+
+.container .preview-body a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #a52a2a;
+  text-decoration: none;
+}
+
+.container .preview-body a:hover,
+.container.wysiwyg-v2 .ProseMirror a:hover {
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+.container .preview-body table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-collapse: collapse;
+  border: 1px solid #d4c5a3;
+}
+
+.container .preview-body table th,
+.container .preview-body table td,
+.container.wysiwyg-v2 .ProseMirror table th,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border: 1px solid #d4c5a3;
+  padding: 6px 12px;
+}
+
+.container .preview-body table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f2ebd9;
+  color: #2b1d0e;
+  font-weight: 600;
+}
+
+.container .preview-body :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #f2ebd9;
+  color: #8b0000;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.container .preview-body hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border: none;
+  border-top: 1px solid #d4c5a3;
+  margin: 1.5em 0;
+}

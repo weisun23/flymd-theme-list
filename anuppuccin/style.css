@@ -1,0 +1,92 @@
+/* @id anuppuccin */
+/* @name AnuPpuccin */
+/* @author flymd-theme-plugin */
+/* @description Obsidian AnuPpuccin 主题（@AnubisNekhet）移植 - Catppuccin 衍生彩色 */
+/* @version 1.0.0 */
+
+.container {
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --muted: #bac2de;
+  --code-bg: #181825;
+  --code-border: #313244;
+  --code-fg: #cdd6f4;
+  --c-key: #cba6f7;
+  --c-str: #a6e3a1;
+  --c-num: #fab387;
+  --c-fn: #89b4fa;
+  --c-com: #7f849c;
+  --accent: #f5c2e7;
+  --accent-hover: #f0a8dc;
+  --accent-light: rgba(245, 194, 231, 0.14);
+  --table-border: #45475a;
+  --table-header-bg: #313244;
+  --table-header-fg: #cba6f7;
+  --border: #313244;
+}
+
+.container .preview {
+  --preview-bg: #1e1e2e;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1e1e2e;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #cba6f7;
+  border-bottom-color: rgba(203, 166, 247, 0.3);
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #89dceb;
+  border-bottom-color: rgba(137, 220, 235, 0.22);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #a6e3a1;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #f9e2af;
+  background: rgba(249, 226, 175, 0.08);
+  color: #cdd6f4;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #f5c2e7;
+  text-decoration-color: rgba(245, 194, 231, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #45475a;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #313244;
+  color: #cba6f7;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #181825;
+  color: #fab387;
+  border: 1px solid #313244;
+}
+
+.container .preview pre code .comment,
+.container.wysiwyg-v2 .ProseMirror pre code .comment {
+  font-style: italic;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-top-color: #45475a;
+}

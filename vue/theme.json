@@ -1,0 +1,8 @@
+{
+  "id": "vue",
+  "name": "Vue",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Vue 主题移植 - Vue.js 官方文档风格",
+  "main": "style.css"
+}

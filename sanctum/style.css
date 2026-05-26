@@ -1,0 +1,115 @@
+/* @id sanctum */
+/* @name Sanctum */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Obsidian Sanctum 主题（@jdanielmourao）移植 - 优雅羊皮纸风 */
+
+.container {
+  --bg: #f5efe6;
+  --fg: #3e2f1c;
+  --muted: #7a6a52;
+  --code-bg: #ede4d3;
+  --code-border: #c8b89a;
+  --code-fg: #3e2f1c;
+  --c-key: #5d4037;
+  --c-str: #33691e;
+  --c-num: #bf360c;
+  --c-fn: #4527a0;
+  --c-com: #9e8a72;
+  --accent: #8d6e63;
+  --accent-hover: #6d4c41;
+  --accent-light: rgba(141, 110, 99, 0.12);
+  --table-border: #c8b89a;
+  --table-header-bg: #ede4d3;
+  --table-header-fg: #3e2f1c;
+  --border: #c8b89a;
+}
+
+.container .preview {
+  --preview-bg: #f5efe6;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #f5efe6;
+}
+
+/* 标题：深棕，h1 双线古书风 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #5d4037;
+  border-bottom: 2px double #8d6e63;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #5d4037;
+  border-bottom-color: rgba(141, 110, 99, 0.3);
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #5d4037;
+}
+
+/* 引用块：棕边 + 斜体 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #8d6e63;
+  background: rgba(141, 110, 99, 0.08);
+  color: #5d4037;
+  font-style: italic;
+}
+
+/* 链接：棕 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #8d6e63;
+  text-decoration-color: rgba(141, 110, 99, 0.4);
+}
+
+.container .preview a:hover,
+.container.wysiwyg-v2 .ProseMirror a:hover {
+  color: #6d4c41;
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #c8b89a;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #ede4d3;
+  color: #3e2f1c;
+  border-color: #c8b89a;
+}
+
+.container .preview table td,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border-color: #c8b89a;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #ede4d3;
+  color: #bf360c;
+  border: 1px solid #c8b89a;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #c8b89a;
+  background: #c8b89a;
+}
+
+/* 注释（comment）斜体 */
+.container .preview pre code .token.comment,
+.container .preview pre code .hljs-comment,
+.container.wysiwyg-v2 .ProseMirror pre code .token.comment,
+.container.wysiwyg-v2 .ProseMirror pre code .hljs-comment {
+  font-style: italic;
+  color: #9e8a72;
+}

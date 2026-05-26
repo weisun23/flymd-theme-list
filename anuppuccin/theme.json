@@ -1,0 +1,8 @@
+{
+  "id": "anuppuccin",
+  "name": "AnuPpuccin",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian AnuPpuccin 主题（@AnubisNekhet）移植 - Catppuccin 衍生彩色",
+  "main": "style.css"
+}

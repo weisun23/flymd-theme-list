@@ -1,0 +1,8 @@
+{
+  "id": "drake",
+  "name": "Drake",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Drake 主题移植 - 深绿暗色阅读风",
+  "main": "style.css"
+}

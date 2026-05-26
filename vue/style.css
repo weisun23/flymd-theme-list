@@ -1,0 +1,116 @@
+/* @id vue */
+/* @name Vue */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Typora Vue 主题移植 - Vue.js 官方文档风格 */
+
+.container {
+  --bg: #ffffff;
+  --fg: #2c3e50;
+  --muted: #476582;
+
+  --code-bg: #f6f8fa;
+  --code-border: #e1e4e8;
+  --code-fg: #2c3e50;
+
+  --c-key: #41b883;
+  --c-str: #42b983;
+  --c-num: #fa7c91;
+  --c-fn: #3eaf7c;
+  --c-com: #90a4ae;
+
+  --accent: #41b883;
+  --accent-hover: #3eaf7c;
+  --accent-light: rgba(66,185,131,0.12);
+
+  --table-border: #dfe2e5;
+  --table-header-bg: #f6f8fa;
+  --table-header-fg: #2c3e50;
+
+  --border: #eaecef;
+}
+
+.container .preview {
+  --preview-bg: #ffffff;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #ffffff;
+}
+
+.container .preview-body h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.container .preview-body h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.container .preview-body h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #2c3e50;
+}
+
+.container .preview-body blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left: 4px solid #42b983;
+  background: rgba(66,185,131,0.08);
+  color: #476582;
+  padding: 0.6em 1em;
+  border-radius: 0 4px 4px 0;
+}
+
+.container .preview-body a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #41b883;
+  text-decoration: none;
+}
+
+.container .preview-body a:hover,
+.container.wysiwyg-v2 .ProseMirror a:hover {
+  color: #3eaf7c;
+  text-decoration: underline;
+}
+
+.container .preview-body table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-collapse: collapse;
+  border: 1px solid #dfe2e5;
+}
+
+.container .preview-body table th,
+.container .preview-body table td,
+.container.wysiwyg-v2 .ProseMirror table th,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border: 1px solid #dfe2e5;
+  padding: 6px 12px;
+}
+
+.container .preview-body table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #f6f8fa;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.container .preview-body :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: rgba(27,31,35,0.05);
+  color: #476582;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.container .preview-body hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border: none;
+  border-top: 1px solid #eaecef;
+  margin: 1.5em 0;
+}

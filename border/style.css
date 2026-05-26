@@ -1,0 +1,102 @@
+/* @id border */
+/* @name Border */
+/* @author flymd-theme-plugin */
+/* @description Obsidian Border 主题（@Akifyss）移植 - 高对比度边框风 */
+/* @version 1.0.0 */
+
+.container {
+  --bg: #0d0d0d;
+  --fg: #e8e8e8;
+  --muted: #a0a0a0;
+  --code-bg: #0d0d0d;
+  --code-border: #333333;
+  --code-fg: #e8e8e8;
+  --c-key: #ff6b6b;
+  --c-str: #51cf66;
+  --c-num: #ffd43b;
+  --c-fn: #74c0fc;
+  --c-com: #666666;
+  --accent: #ff6b6b;
+  --accent-hover: #ff5252;
+  --accent-light: rgba(255, 107, 107, 0.12);
+  --table-border: #444444;
+  --table-header-bg: #1a1a1a;
+  --table-header-fg: #ffffff;
+  --border: #333333;
+}
+
+.container .preview {
+  --preview-bg: #0d0d0d;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #0d0d0d;
+}
+
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #ffffff;
+  border-bottom: 1px solid #333333;
+  text-decoration: none;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #ffffff;
+  border-bottom: 1px solid #333333;
+  text-decoration: none;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left: 3px solid #ff6b6b;
+  background: rgba(255, 107, 107, 0.08);
+  color: #d0d0d0;
+}
+
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #ff6b6b;
+  text-decoration-color: rgba(255, 107, 107, 0.4);
+}
+
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+
+.container .preview table td,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border: 1px solid #444444;
+}
+
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #1a1a1a;
+  color: #ff6b6b;
+  border: 1px solid #444444;
+}
+
+.container .preview pre,
+.container.wysiwyg-v2 .ProseMirror pre {
+  border: 1px solid #333333;
+}
+
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-top: 1px solid #333333;
+}

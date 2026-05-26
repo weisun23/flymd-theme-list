@@ -1,0 +1,8 @@
+{
+  "id": "whitey",
+  "name": "Whitey",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Whitey 主题移植 - 纯白极简书写风",
+  "main": "style.css"
+}

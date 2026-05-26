@@ -1,0 +1,8 @@
+{
+  "id": "han",
+  "name": "Han",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Typora Han 主题移植 - 中式古典书法风",
+  "main": "style.css"
+}

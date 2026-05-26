@@ -1,0 +1,114 @@
+/* @id drake */
+/* @name Drake */
+/* @version 1.0.0 */
+/* @author flymd-theme-plugin */
+/* @description Typora Drake 主题移植 - 深绿暗色阅读风 */
+
+.container {
+  --bg: #1e2127;
+  --fg: #abb2bf;
+  --muted: #5c6370;
+  --code-bg: #282c34;
+  --code-border: #3e4451;
+  --code-fg: #abb2bf;
+  --c-key: #c678dd;
+  --c-str: #98c379;
+  --c-num: #d19a66;
+  --c-fn: #61afef;
+  --c-com: #5c6370;
+  --accent: #61afef;
+  --accent-hover: #4078c0;
+  --accent-light: rgba(97, 175, 239, 0.15);
+  --table-border: #4b5263;
+  --table-header-bg: #282c34;
+  --table-header-fg: #abb2bf;
+  --border: #3e4451;
+}
+
+.container .preview {
+  --preview-bg: #1e2127;
+}
+
+.container.wysiwyg-v2 {
+  --wysiwyg-bg: #1e2127;
+}
+
+/* 标题：草绿，h1/h2 细分割线 */
+.container .preview h1,
+.container.wysiwyg-v2 .ProseMirror h1 {
+  color: #98c379;
+  border-bottom: 1px solid #3e4451;
+}
+
+.container .preview h2,
+.container.wysiwyg-v2 .ProseMirror h2 {
+  color: #98c379;
+  border-bottom: 1px solid #3e4451;
+}
+
+.container .preview h3,
+.container.wysiwyg-v2 .ProseMirror h3 {
+  color: #98c379;
+}
+
+/* 引用块：草绿边 */
+.container .preview blockquote,
+.container.wysiwyg-v2 .ProseMirror blockquote {
+  border-left-color: #98c379;
+  background: rgba(152, 195, 121, 0.08);
+  color: #abb2bf;
+}
+
+/* 链接：蓝 */
+.container .preview a,
+.container.wysiwyg-v2 .ProseMirror a {
+  color: #61afef;
+  text-decoration-color: rgba(97, 175, 239, 0.4);
+}
+
+.container .preview a:hover,
+.container.wysiwyg-v2 .ProseMirror a:hover {
+  color: #4078c0;
+}
+
+/* 表格 */
+.container .preview table,
+.container.wysiwyg-v2 .ProseMirror table {
+  border-color: #4b5263;
+}
+
+.container .preview table th,
+.container.wysiwyg-v2 .ProseMirror table th {
+  background: #282c34;
+  color: #abb2bf;
+  border-color: #4b5263;
+}
+
+.container .preview table td,
+.container.wysiwyg-v2 .ProseMirror table td {
+  border-color: #4b5263;
+}
+
+/* 行内代码 */
+.container .preview :not(pre) > code,
+.container.wysiwyg-v2 .ProseMirror :not(pre) > code {
+  background: #282c34;
+  color: #e06c75;
+  border: 1px solid #3e4451;
+}
+
+/* 分割线 */
+.container .preview hr,
+.container.wysiwyg-v2 .ProseMirror hr {
+  border-color: #3e4451;
+  background: #3e4451;
+}
+
+/* 注释（comment）斜体 */
+.container .preview pre code .token.comment,
+.container .preview pre code .hljs-comment,
+.container.wysiwyg-v2 .ProseMirror pre code .token.comment,
+.container.wysiwyg-v2 .ProseMirror pre code .hljs-comment {
+  font-style: italic;
+  color: #5c6370;
+}

@@ -1,0 +1,8 @@
+{
+  "id": "border",
+  "name": "Border",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Border 主题（@Akifyss）移植 - 高对比度边框风",
+  "main": "style.css"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "shimmering-focus",
+  "name": "Shimmering Focus",
+  "version": "1.0.0",
+  "author": "flymd-theme-plugin",
+  "description": "Obsidian Shimmering Focus 主题（@chrisgrieser）移植 - 极简专注白",
+  "main": "style.css"
+}
